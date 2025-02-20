@@ -17,7 +17,7 @@ for easy sharing of jupyter notebooks to generate figures
 - [ ] Determine RNA isoforms, connect RNA to K4me3
 - [ ] select all used TSS in the dataset
 - [ ] Check TSS-resolved bivalency sites, make heatmaps of K4/K27/RNA
-- [ ] 
+- [ ] test
 
 figure panels
 - [x] (a) line plot of genome-wide counts of K4/K27/RNA across pluripotency
