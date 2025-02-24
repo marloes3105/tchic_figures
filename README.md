@@ -35,9 +35,9 @@ figure panels
 - [ ] 5C: change dots for symbols
 
 ## figure 6
-- [ ] integrate decoupler for TF activity inference. > see if we can make different levels of TF activities and see which level changes
+- [x] integrate decoupler for TF activity inference. > see if we can make different levels of TF activities and see which level changes
 - [ ] Calculate a delta transcriptome vs chromatin, to determine which one changes first
-- [ ] Remove differentially expressed genes that are significant in >1 lineage
+- [x] Remove differentially expressed genes that are significant in >1 lineage
 
 figure panels
 - [ ] remove figs 6a, S6a > they are already included in fig5
