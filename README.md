@@ -40,9 +40,9 @@ figure panels
 - [x] Remove differentially expressed genes that are significant in >1 lineage
 
 figure panels
-- [ ] remove figs 6a, S6a > they are already included in fig5
-- [ ] 6B - transpose: RNA/k4/K27 on y axis, lineages on x axis
+- [x] remove figs 6a, S6a > they are already included in fig5
+- [x] 6B - transpose: RNA/k4/K27 on y axis, lineages on x axis
 - [ ] Make dotplot of state changes for diff expressed genes
-- [ ] Make TF activity plots for diff expressed genes
+- [x] Make TF activity plots for diff expressed genes
 - [ ] Make heatmaps/lineplots of different levels of TF regulators > which level is tight regulated in its own/in other lineages?
 - [ ]
