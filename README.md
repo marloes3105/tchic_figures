@@ -23,10 +23,26 @@ figure panels
 - [ ] organise genes according to where biggest change happens (which steps?)
 - [x] specifying which gene groups are there? GO analysis - possibly Transcription factor activity inference (https://decoupler-py.readthedocs.io/en/latest/notebooks/dorothea.html)
 
-figure panels
-- [ ] sankey plots for all 3 lineages
-- [ ] UMAPS or heatmaps of transcription levels for DNAme, K27me3, k4me3 factors (Ezh2, Jarid2, Tet, Dnmt1/3a/3b)
 
+figure panels
+- [ ] S5C: split per day and lineage
+- [ ] S5D: Make dotplot for epigenetic regulators. Check if it makes sense to split per celltype or per lineage/day
+- [ ] 5D: line plots - include all pseudobulks and plot on the same y-axis everywhere
+- [ ] 5E: transform into dotplot where the size is the quantity and the colour intensity is the percentage change
+- [ ] Remainder for fig5: add volcano plots to supp, make a barplot of #changing genes for main
+- [ ] 5D-S5E: UMAPS - find a nicer way to plot this (5D - thinner line, S5E - different colours for consistency with other figs)
+- [ ] 5B: remove symbol legend - it is not used here
+- [ ] 5C: change dots for symbols
 
 ## figure 6
-- [ ] under construction
+- [ ] integrate decoupler for TF activity inference. > see if we can make different levels of TF activities and see which level changes
+- [ ] Calculate a delta transcriptome vs chromatin, to determine which one changes first
+- [ ] Remove differentially expressed genes that are significant in >1 lineage
+
+figure panels
+- [ ] remove figs 6a, S6a > they are already included in fig5
+- [ ] 6B - transpose: RNA/k4/K27 on y axis, lineages on x axis
+- [ ] Make dotplot of state changes for diff expressed genes
+- [ ] Make TF activity plots for diff expressed genes
+- [ ] Make heatmaps/lineplots of different levels of TF regulators > which level is tight regulated in its own/in other lineages?
+- [ ]
