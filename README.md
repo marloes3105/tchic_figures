@@ -25,10 +25,10 @@ figure panels
 
 
 figure panels
-- [ ] S5C: split per day and lineage
-- [ ] S5D: Make dotplot for epigenetic regulators. Check if it makes sense to split per celltype or per lineage/day
-- [ ] 5D: line plots - include all pseudobulks and plot on the same y-axis everywhere
-- [ ] 5E: transform into dotplot where the size is the quantity and the colour intensity is the percentage change
+- [x] S5C: split per day and lineage
+- [x] S5D: Make dotplot for epigenetic regulators. Check if it makes sense to split per celltype or per lineage/day
+- [x] 5D: line plots - include all pseudobulks and plot on the same y-axis everywhere
+- [x] 5E: transform into dotplot where the size is the quantity and the colour intensity is the percentage change
 - [ ] Remainder for fig5: add volcano plots to supp, make a barplot of #changing genes for main
 - [ ] 5D-S5E: UMAPS - find a nicer way to plot this (5D - thinner line, S5E - different colours for consistency with other figs)
 - [ ] 5B: remove symbol legend - it is not used here
