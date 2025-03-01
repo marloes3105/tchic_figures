@@ -2213,13 +2213,18 @@
    ]
   },
   {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## conclusions: deseq and scanpy do largely agree on the genes that are differentially expressed, but the scores are wildly different. Therefore, the venn diagram shows considerable overlap between the gene sets and the (geneset-based) GO analysis is also comparable, but the (score-based) TF activity inference shows different results."
+   ]
+  },
+  {
    "cell_type": "code",
    "execution_count": null,
    "metadata": {},
    "outputs": [],
-   "source": [
-    "## conclusions: deseq and scanpy do largely agree on the genes that are differentially expressed, but the scores are wildly different. Therefore, the venn diagram shows considerable overlap between the gene sets and the (geneset-based)"
-   ]
+   "source": []
   }
  ],
  "metadata": {
