@@ -37,12 +37,24 @@ figure panels
 ## figure 6
 - [x] integrate decoupler for TF activity inference. > see if we can make different levels of TF activities and see which level changes
 - [ ] Calculate a delta transcriptome vs chromatin, to determine which one changes first
-- [x] Remove differentially expressed genes that are significant in >1 lineage
+
+
+differential gene analysis - run DESEQ pseudobulks + scanpy default on the following comparisons:
+- [ ] mESC vs pluripotent
+- [ ] pluripotent vs 3 germ layers
+- [ ] endoderm vs pluripotent
+- [ ] ectoderm vs pluripotent
+- [ ] mesoderm vs pluripotent
+- [ ] compare different diff-exp analysis and pick the best one
+- [ ] Remove differentially expressed genes that are significant in >1 lineage
+- [ ] check what are the overlapping genes
 
 figure panels
 - [x] remove figs 6a, S6a > they are already included in fig5
 - [x] 6B - transpose: RNA/k4/K27 on y axis, lineages on x axis
 - [ ] Make dotplot of state changes for diff expressed genes
-- [x] Make TF activity plots for diff expressed genes
+- [ ] Make venn diagrams of diff expressed genes
+- [ ] Make GO plots of diff expressed genes
+- [ ] Make TF activity plots for diff expressed genes
 - [ ] Make heatmaps/lineplots of different levels of TF regulators > which level is tight regulated in its own/in other lineages?
 - [ ]
