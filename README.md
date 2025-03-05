@@ -38,23 +38,31 @@ figure panels
 - [x] integrate decoupler for TF activity inference. > see if we can make different levels of TF activities and see which level changes
 - [ ] Calculate a delta transcriptome vs chromatin, to determine which one changes first
 
-
 differential gene analysis - run DESEQ pseudobulks + scanpy default on the following comparisons:
-- [ ] mESC vs pluripotent
-- [ ] pluripotent vs 3 germ layers
-- [ ] endoderm vs pluripotent
-- [ ] ectoderm vs pluripotent
-- [ ] mesoderm vs pluripotent
-- [ ] compare different diff-exp analysis and pick the best one
-- [ ] Remove differentially expressed genes that are significant in >1 lineage
+- [x] mESC vs pluripotent
+- [x] pluripotent vs 3 germ layers
+- [x] endoderm vs pluripotent
+- [x] ectoderm vs pluripotent
+- [x] mesoderm vs pluripotent
+- [x] compare different diff-exp analysis and pick the best one
+- [x] Remove differentially expressed genes that are significant in >1 lineage
 - [ ] check what are the overlapping genes
 
 figure panels
 - [x] remove figs 6a, S6a > they are already included in fig5
 - [x] 6B - transpose: RNA/k4/K27 on y axis, lineages on x axis
-- [ ] Make dotplot of state changes for diff expressed genes
-- [ ] Make venn diagrams of diff expressed genes
-- [ ] Make GO plots of diff expressed genes
+- [ ] for deseq comparisons (ESCvP, PvECT, PvEND,PvMES):
+- [ ] 6A - Volcano plots of diff expresed genes
+- [ ] S6A - GO analysis, venn diagram of overlap between ect/mes/end
+- [ ] 6B - Make dotplot of state changes for diff expressed genes?
+- [ ] 6C - show heatmaps/lineplots: which layer changes first?
+Then: diff gene analysis for trajectory groups
+- [ ] S6 - show UMAP of trajectory groups,
+- [ ] S6 - show dotplot of top 5 genes,
+- [ ] S6 - show venn diagrams of overlap between mes/ect
+- [ ] 6 - show dotplot of state changes for these genes > chromatin layer does not change as much
 - [ ] Make TF activity plots for diff expressed genes
+- [ ] single-cell TF activity to identify regulatory layer + lower layer
+- [ ] which one shows state changes?
 - [ ] Make heatmaps/lineplots of different levels of TF regulators > which level is tight regulated in its own/in other lineages?
 - [ ]
