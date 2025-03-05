@@ -56,10 +56,16 @@ figure panels
 - [x] S6A - GO analysis, venn diagram of overlap between ect/mes/end
 - [ ] 6B - Make dotplot of state changes for diff expressed genes?
 - [x] 6C - show heatmaps/lineplots: which layer changes first?
+Figured out state changes!
+- [ ] first: generate tables with +1 and -1 values for steps, where n = step and n-(n-1) = difference between steps
+- [ ] make bar plots with RNA/K4/K27 for diff gene sets, to show where the biggest difference happens (underneath line plots? supp?)
+- [ ] make scatterplots of diff_step RNA vs diff_step K4/K27 (supp)
+- [ ] calculate delta between diff_step RNA and diff_step K4/K27 and plot this for all trajectories (boxplot/stripplot? violin?)
+
 Then: diff gene analysis for trajectory groups
-- [ ] S6 - show UMAP of trajectory groups,
-- [ ] S6 - show dotplot of top 5 genes,
-- [ ] S6 - show venn diagrams of overlap between mes/ect
+- [x] S6 - show UMAP of trajectory groups,
+- [x] S6 - show dotplot of top 5 genes,
+- [x] S6 - show venn diagrams of overlap between mes/ect
 - [ ] 6 - show dotplot of state changes for these genes > chromatin layer does not change as much
 - [ ] Make TF activity plots for diff expressed genes
 - [ ] single-cell TF activity to identify regulatory layer + lower layer
