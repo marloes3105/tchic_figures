@@ -52,10 +52,10 @@ figure panels
 - [x] remove figs 6a, S6a > they are already included in fig5
 - [x] 6B - transpose: RNA/k4/K27 on y axis, lineages on x axis
 - [ ] for deseq comparisons (ESCvP, PvECT, PvEND,PvMES):
-- [ ] 6A - Volcano plots of diff expresed genes
-- [ ] S6A - GO analysis, venn diagram of overlap between ect/mes/end
+- [x] 6A - Volcano plots of diff expresed genes
+- [x] S6A - GO analysis, venn diagram of overlap between ect/mes/end
 - [ ] 6B - Make dotplot of state changes for diff expressed genes?
-- [ ] 6C - show heatmaps/lineplots: which layer changes first?
+- [x] 6C - show heatmaps/lineplots: which layer changes first?
 Then: diff gene analysis for trajectory groups
 - [ ] S6 - show UMAP of trajectory groups,
 - [ ] S6 - show dotplot of top 5 genes,
