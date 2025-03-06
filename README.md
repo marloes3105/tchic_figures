@@ -57,10 +57,10 @@ figure panels
 - [ ] 6B - Make dotplot of state changes for diff expressed genes?
 - [x] 6C - show heatmaps/lineplots: which layer changes first?
 Figured out state changes!
-- [ ] first: generate tables with +1 and -1 values for steps, where n = step and n-(n-1) = difference between steps
+- [x] first: generate tables with +1 and -1 values for steps, where n = step and n-(n-1) = difference between steps
 - [ ] make bar plots with RNA/K4/K27 for diff gene sets, to show where the biggest difference happens (underneath line plots? supp?)
-- [ ] make scatterplots of diff_step RNA vs diff_step K4/K27 (supp)
-- [ ] calculate delta between diff_step RNA and diff_step K4/K27 and plot this for all trajectories (boxplot/stripplot? violin?)
+- [x] make scatterplots of diff_step RNA vs diff_step K4/K27 (supp)
+- [x] calculate delta between diff_step RNA and diff_step K4/K27 and plot this for all trajectories (boxplot/stripplot? violin?)
 
 Then: diff gene analysis for trajectory groups
 - [x] S6 - show UMAP of trajectory groups,
