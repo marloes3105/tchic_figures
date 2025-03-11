@@ -32,15 +32,10 @@ figure panels
 - [ ] 5D-S5E: UMAPS - find a nicer way to plot this (5D - thinner line, S5E - different colours for consistency with other figs)
 - [ ] 5B: remove symbol legend - it is not used here
 - [ ] 5C: change dots for symbols
-- [ ] improve volcano plot aesthetics
 
 ## figure 6
-important:
-- [ ] try to use stdev as a cutoff for state changes, use the step after mESCs as starting point.
-- [ ] improve selection of differentially expressed genes (but how?)
-
 - [x] integrate decoupler for TF activity inference. > see if we can make different levels of TF activities and see which level changes
-- [x] Calculate a delta transcriptome vs chromatin, to determine which one changes first
+- [ ] Calculate a delta transcriptome vs chromatin, to determine which one changes first
 
 differential gene analysis - run DESEQ pseudobulks + scanpy default on the following comparisons:
 - [x] mESC vs pluripotent
@@ -52,8 +47,9 @@ differential gene analysis - run DESEQ pseudobulks + scanpy default on the follo
 - [x] Remove differentially expressed genes that are significant in >1 lineage
 - [ ] check what are the overlapping genes
 
-
 figure panels
+- [x] remove figs 6a, S6a > they are already included in fig5
+- [x] 6B - transpose: RNA/k4/K27 on y axis, lineages on x axis
 - [ ] for deseq comparisons (ESCvP, PvECT, PvEND,PvMES):
 - [x] 6A - Volcano plots of diff expresed genes
 - [x] S6A - GO analysis, venn diagram of overlap between ect/mes/end
