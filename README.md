@@ -12,44 +12,43 @@ for easy sharing of jupyter notebooks to generate figures
 
 ## figure 4
 figure panels
-- [ ] (b) add scalebar values
-- [ ] (e) add whitespace between sections
-- [ ] (S4e) increase bar size for better visibility
-- [ ] (S4l) make dots light/dark green?
+- [ ] general: use ECT/MES/END instead of ectoderm/mesoderm/endoderm
+- [ ] (b,c) re-order: mESC first
+- [ ] (d) replace top heatmap for RNA + K27
+- [ ] (e) add annot TSS
+- [ ] (f) add whitespace between sections, remove cutouts
+- [ ] (S4) 2 sub-panels b, make text sizes etc consistent
+- [ ] (S4) consistently say TSS instead of promoter (e, m)
+- [ ] (S4e) y-axis labels aren't centred
+- [ ] (S4f) remake to have same order of ECT/MES/END
+
 
 ## figure 5
-- [x] set up anova test
-- [x] determine gene states for all 3 lineages, all 3 marks
-- [x] specifying which gene groups are there? GO analysis - possibly Transcription factor activity inference (https://decoupler-py.readthedocs.io/en/latest/notebooks/dorothea.html)
-
-
 figure panels
-- [x] S5C: split per day and lineage
-- [x] S5D: Make dotplot for epigenetic regulators. Check if it makes sense to split per celltype or per lineage/day
-- [x] 5D: line plots - include all pseudobulks and plot on the same y-axis everywhere
-- [x] 5E: transform into dotplot where the size is the quantity and the colour intensity is the percentage change
-- [ ] Remainder for fig5: add volcano plots to supp, make a barplot of #changing genes for main
-- [ ] 5D-S5E: UMAPS - find a nicer way to plot this (5D - thinner line, S5E - different colours for consistency with other figs)
-- [ ] 5B: remove symbol legend - it is not used here
-- [ ] 5C: change dots for symbols
+- [ ] (a,b) ESCs first
+- [ ] (f) add dots for states on all outside x-y-axes and add label "states"
+- [ ] (h) try log scale
+supplementary figure
+- [ ] (a) add [counts per cell] to y-axis label
+- [ ] (b) (low priority) change order of states
+- [ ] (b) shift all legends/color bars to one side (right)
+- [ ] (b/c) call ECT/MES/END
+- [ ] (c/d) shorten labels
+- [ ] (e) background cell clusters one shade darker grey
+- [ ] (g) axis labels
+- [ ] (h) add title or make more coherent with g (add box around each germ layer?)
+- [ ] (h) try log scale?
+- [ ] (h) try to consider min counts and see if this helps
+
 - [ ] improve volcano plot aesthetics
 
 ## figure 6
 important:
 - [ ] try to use stdev as a cutoff for state changes, use the step after mESCs as starting point.
 - [ ] improve selection of differentially expressed genes (but how?)
-
 - [x] integrate decoupler for TF activity inference. > see if we can make different levels of TF activities and see which level changes
 - [x] Calculate a delta transcriptome vs chromatin, to determine which one changes first
-
 differential gene analysis - run DESEQ pseudobulks + scanpy default on the following comparisons:
-- [x] mESC vs pluripotent
-- [x] pluripotent vs 3 germ layers
-- [x] endoderm vs pluripotent
-- [x] ectoderm vs pluripotent
-- [x] mesoderm vs pluripotent
-- [x] compare different diff-exp analysis and pick the best one
-- [x] Remove differentially expressed genes that are significant in >1 lineage
 - [ ] check what are the overlapping genes
 
 
@@ -59,7 +58,7 @@ figure panels
 - [x] S6A - GO analysis, venn diagram of overlap between ect/mes/end
 - [ ] 6B - Make dotplot of state changes for diff expressed genes?
 - [x] 6C - show heatmaps/lineplots: which layer changes first?
-Figured out state changes!
+Figure out state changes!
 - [x] first: generate tables with +1 and -1 values for steps, where n = step and n-(n-1) = difference between steps
 - [ ] make bar plots with RNA/K4/K27 for diff gene sets, to show where the biggest difference happens (underneath line plots? supp?)
 - [x] make scatterplots of diff_step RNA vs diff_step K4/K27 (supp)
