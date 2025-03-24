@@ -18,15 +18,15 @@ for easy sharing of jupyter notebooks to generate figures
 
 ## figure 4
 figure panels
-- [ ] general: use ECT/MES/END instead of ectoderm/mesoderm/endoderm
-- [ ] (b,c) re-order: mESC first
-- [ ] (d) replace top heatmap for RNA + K27
-- [ ] (e) add annot TSS
-- [ ] (f) add whitespace between sections, remove cutouts
-- [ ] (S4) 2 sub-panels b, make text sizes etc consistent
-- [ ] (S4) consistently say TSS instead of promoter (e, m)
-- [ ] (S4e) y-axis labels aren't centred
-- [ ] (S4f) remake to have same order of ECT/MES/END
+- [ ] (f) use ECT/MES/END instead of ectoderm/mesoderm/endoderm
+- [x] (b,c) re-order: mESC first
+- [x] (d) replace top heatmap for RNA + K27
+- [x] (e) add annot TSS
+- [x] (f) add whitespace between sections, remove cutouts
+- [x] (S4) 2 sub-panels b, make text sizes etc consistent
+- [x] (S4) consistently say TSS instead of promoter (e, m)
+- [x] (S4e) y-axis labels aren't centred
+- [ ] (S4g) remake to have same order of ECT/MES/END
 
 
 ## figure 5
