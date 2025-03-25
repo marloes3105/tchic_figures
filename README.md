@@ -26,7 +26,7 @@ figure panels
 - [x] (S4) 2 sub-panels b, make text sizes etc consistent
 - [x] (S4) consistently say TSS instead of promoter (e, m)
 - [x] (S4e) y-axis labels aren't centred
-- [ ] (S4g) remake to have same order of ECT/MES/END
+- [x] (S4g) remake to have same order of ECT/MES/END
 
 
 ## figure 5
