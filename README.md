@@ -18,7 +18,7 @@ for easy sharing of jupyter notebooks to generate figures
 
 ## figure 4
 figure panels
-- [ ] (f) use ECT/MES/END instead of ectoderm/mesoderm/endoderm
+- [x] (f) use ECT/MES/END instead of ectoderm/mesoderm/endoderm
 - [x] (b,c) re-order: mESC first
 - [x] (d) replace top heatmap for RNA + K27
 - [x] (e) add annot TSS
