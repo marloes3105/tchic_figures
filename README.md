@@ -27,7 +27,7 @@ figure panels
 - [x] (S4) consistently say TSS instead of promoter (e, m)
 - [x] (S4e) y-axis labels aren't centred
 - [x] (S4g) remake to have same order of ECT/MES/END
-
+- > done?
 
 ## figure 5
 figure panels
