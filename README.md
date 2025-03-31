@@ -31,20 +31,20 @@ figure panels
 
 ## figure 5
 figure panels
-- [ ] (a,b) ESCs first
-- [ ] (f) add dots for states on all outside x-y-axes and add label "states"
-- [ ] (h) try log scale
+- [x] (a,b) ESCs first
+- [x] (f) add dots for states on all outside x-y-axes and add label "states"
+- [x] (h) try log scale
 supplementary figure
 - [ ] (a) add [counts per cell] to y-axis label
 - [ ] (b) (low priority) change order of states
 - [ ] (b) shift all legends/color bars to one side (right)
-- [ ] (b/c) call ECT/MES/END
-- [ ] (c/d) shorten labels
-- [ ] (e) background cell clusters one shade darker grey
+- [x] (b/c) call ECT/MES/END
+- [x] (c/d) shorten labels
+- [x] (e) background cell clusters one shade darker grey
 - [ ] (g) axis labels
 - [ ] (h) add title or make more coherent with g (add box around each germ layer?)
-- [ ] (h) try log scale?
-- [ ] (h) try to consider min counts and see if this helps
+- [x] (h) try log scale?
+- [x] (h) try to consider min counts and see if this helps
 
 - [ ] improve volcano plot aesthetics
 
