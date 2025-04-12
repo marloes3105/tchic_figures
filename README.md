@@ -53,6 +53,7 @@ supplementary figure
 - [ ] send deseq gene lists to Peter
 
 figure panels
+Part I
 - [ ] (a) remove pluripotency + ESC deseq results
 - [ ] (a) add numbers in volcano lineplots
 - [ ] (a) add UMAP with compared groups
@@ -64,27 +65,19 @@ figure panels
       - [ ] RNA + K27 changing
       - [ ] all 3 changing
       - [ ] for both stdev and state changes
-      + filter: select only the 1st instance of chang
+      + filter: select only the 1st instance of change
+- [ ] boxplot: show filtered and unfiltered gene sets
+
+Part II
+- [ ] separate sources/targets in active vs repressed networks
+- [ ] use barplots in supplement for pos/neg sources and extract their targets from net
 
 
-- [ ] for deseq comparisons (ESCvP, PvECT, PvEND,PvMES):
-- [x] 6A - Volcano plots of diff expresed genes
-- [x] S6A - GO analysis, venn diagram of overlap between ect/mes/end
-- [ ] 6B - Make dotplot of state changes for diff expressed genes?
-- [x] 6C - show heatmaps/lineplots: which layer changes first?
-Figure out state changes!
-- [x] first: generate tables with +1 and -1 values for steps, where n = step and n-(n-1) = difference between steps
-- [ ] make bar plots with RNA/K4/K27 for diff gene sets, to show where the biggest difference happens (underneath line plots? supp?)
-- [x] make scatterplots of diff_step RNA vs diff_step K4/K27 (supp)
-- [x] calculate delta between diff_step RNA and diff_step K4/K27 and plot this for all trajectories (boxplot/stripplot? violin?)
+part III
+- [ ]  make histograms underneath the same line plots
+- [ ] remove pluripotency row
 
-Then: diff gene analysis for trajectory groups
-- [x] S6 - show dotplot of top 5 genes,
-
-- [x] S6 - show venn diagrams of overlap between mes/ect
+for Peter:
+- [ ] Make dotplot of state changes for diff expressed genes
+- [ ] make dotplot for regulation of diff genes in other lineages
 - [ ] 6 - show dotplot of state changes for these genes > chromatin layer does not change as much
-- [ ] Make TF activity plots for diff expressed genes
-- [ ] single-cell TF activity to identify regulatory layer + lower layer
-- [ ] which one shows state changes?
-- [ ] Make heatmaps/lineplots of different levels of TF regulators > which level is tight regulated in its own/in other lineages?
-- [ ]
