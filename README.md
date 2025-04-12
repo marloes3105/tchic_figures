@@ -49,16 +49,24 @@ supplementary figure
 - [ ] improve volcano plot aesthetics
 
 ## figure 6
-important:
-- [ ] try to use stdev as a cutoff for state changes, use the step after mESCs as starting point.
-- [ ] improve selection of differentially expressed genes (but how?)
-- [x] integrate decoupler for TF activity inference. > see if we can make different levels of TF activities and see which level changes
-- [x] Calculate a delta transcriptome vs chromatin, to determine which one changes first
-differential gene analysis - run DESEQ pseudobulks + scanpy default on the following comparisons:
 - [ ] check what are the overlapping genes
-
+- [ ] send deseq gene lists to Peter
 
 figure panels
+- [ ] (a) remove pluripotency + ESC deseq results
+- [ ] (a) add numbers in volcano lineplots
+- [ ] (a) add UMAP with compared groups
+- [ ] (Sa) remove GO results for pluripotency + ESCs
+- [ ] (b) make VENN diagram to show genes changing (1) only in RNA, (2) in RNA+K27, (3) in all 3
+- [ ] remake histograms for state changes and for stdev cutoff
+- [ ] remake line plots too for the following sets:
+      - [ ] full gene set
+      - [ ] RNA + K27 changing
+      - [ ] all 3 changing
+      - [ ] for both stdev and state changes
+      + filter: select only the 1st instance of chang
+
+
 - [ ] for deseq comparisons (ESCvP, PvECT, PvEND,PvMES):
 - [x] 6A - Volcano plots of diff expresed genes
 - [x] S6A - GO analysis, venn diagram of overlap between ect/mes/end
@@ -71,8 +79,8 @@ Figure out state changes!
 - [x] calculate delta between diff_step RNA and diff_step K4/K27 and plot this for all trajectories (boxplot/stripplot? violin?)
 
 Then: diff gene analysis for trajectory groups
-- [x] S6 - show UMAP of trajectory groups,
 - [x] S6 - show dotplot of top 5 genes,
+
 - [x] S6 - show venn diagrams of overlap between mes/ect
 - [ ] 6 - show dotplot of state changes for these genes > chromatin layer does not change as much
 - [ ] Make TF activity plots for diff expressed genes
