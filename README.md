@@ -54,10 +54,10 @@ supplementary figure
 
 figure panels
 Part I
-- [ ] (a) remove pluripotency + ESC deseq results
-- [ ] (a) add numbers in volcano lineplots
-- [ ] (a) add UMAP with compared groups
-- [ ] (Sa) remove GO results for pluripotency + ESCs
+- [x] (a) remove pluripotency + ESC deseq results
+- [x] (a) add numbers in volcano lineplots
+- [x] (a) add UMAP with compared groups
+- [x] (Sa) remove GO results for pluripotency + ESCs
 - [ ] (b) make VENN diagram to show genes changing (1) only in RNA, (2) in RNA+K27, (3) in all 3
 - [ ] remake histograms for state changes and for stdev cutoff
 - [ ] remake line plots too for the following sets:
