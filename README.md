@@ -49,38 +49,16 @@ supplementary figure
 - [ ] improve volcano plot aesthetics
 
 ## figure 6
-- [ ] check what are the overlapping genes
-- [ ] send deseq gene lists to Peter
-
 figure panels
-Part I
-- [x] (a) remove pluripotency + ESC deseq results
-- [x] (a) add numbers in volcano lineplots
-- [x] (a) add UMAP with compared groups
-- [x] (Sa) remove GO results for pluripotency + ESCs
-- [x] (b) make VENN diagram to show genes changing (1) only in RNA, (2) in RNA+K27, (3) in all 3
-- [x] remake histograms for state changes and for stdev cutoff
-- [ ] remake line plots too for the following sets:
-      - [ ] full gene set
-      - [ ] RNA + K27 changing
-      - [ ] all 3 changing
-      - [ ] for both stdev and state changes
-      [x] filter: select only the 1st instance of change
-- [x] boxplot: show filtered and unfiltered gene sets
+- [ ] d) change to steps instead of RT for both line plot and histogram
+- [ ] f) show the same cells/UMAP in both
+- [ ] g) move all targets to supp, keep diff expressed only
 
-Part II
-- [x] separate sources/targets in active vs repressed networks
-- [x] use barplots in supplement for pos/neg sources and extract their targets from net
-
-part III
-- [ ]  make histograms underneath the same line plots
-- [x] remove pluripotency row
-
-for Peter:
-- [x] Make dotplot of state changes for diff expressed genes
-- [ ] make dotplot for regulation of diff genes in other lineages
-- [x] 6 - show dotplot of state changes for these genes > chromatin layer does not change as much
-
+supplementary figure
+- [ ] b) show subselection that Peter indicated
+- [ ] c) use gray lines for the std, and a vertical black line for the first cross
+- [ ] c) try sox17 or dach1 in ect
+- [ ] d) share unfiltered, 2 modalities and all 3 modalities changing
 
 ## manuscript:
 - [ ] figure 6 caption
