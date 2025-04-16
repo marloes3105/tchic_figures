@@ -58,26 +58,37 @@ Part I
 - [x] (a) add numbers in volcano lineplots
 - [x] (a) add UMAP with compared groups
 - [x] (Sa) remove GO results for pluripotency + ESCs
-- [ ] (b) make VENN diagram to show genes changing (1) only in RNA, (2) in RNA+K27, (3) in all 3
-- [ ] remake histograms for state changes and for stdev cutoff
+- [x] (b) make VENN diagram to show genes changing (1) only in RNA, (2) in RNA+K27, (3) in all 3
+- [x] remake histograms for state changes and for stdev cutoff
 - [ ] remake line plots too for the following sets:
       - [ ] full gene set
       - [ ] RNA + K27 changing
       - [ ] all 3 changing
       - [ ] for both stdev and state changes
-      + filter: select only the 1st instance of change
-- [ ] boxplot: show filtered and unfiltered gene sets
+      [x] filter: select only the 1st instance of change
+- [x] boxplot: show filtered and unfiltered gene sets
 
 Part II
-- [ ] separate sources/targets in active vs repressed networks
-- [ ] use barplots in supplement for pos/neg sources and extract their targets from net
-
+- [x] separate sources/targets in active vs repressed networks
+- [x] use barplots in supplement for pos/neg sources and extract their targets from net
 
 part III
 - [ ]  make histograms underneath the same line plots
-- [ ] remove pluripotency row
+- [x] remove pluripotency row
 
 for Peter:
-- [ ] Make dotplot of state changes for diff expressed genes
+- [x] Make dotplot of state changes for diff expressed genes
 - [ ] make dotplot for regulation of diff genes in other lineages
-- [ ] 6 - show dotplot of state changes for these genes > chromatin layer does not change as much
+- [x] 6 - show dotplot of state changes for these genes > chromatin layer does not change as much
+
+
+## manuscript:
+- [ ] figure 6 caption
+- [ ] figure S6 caption
+- [ ] figure 6 main text
+- [ ] add to methods: diff gene analysis
+- [ ] add to methods: TF activity
+- [ ] discussion
+- [ ] Peter: check main text
+- [ ] Peter: check fig6 text
+- [ ] Peter: add methods sections
