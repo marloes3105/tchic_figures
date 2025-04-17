@@ -50,9 +50,10 @@ supplementary figure
 
 ## figure 6
 figure panels
-- [ ] d) change to steps instead of RT for both line plot and histogram
-- [ ] f) show the same cells/UMAP in both
-- [ ] g) move all targets to supp, keep diff expressed only
+- [x] d) change to steps instead of RT for both line plot and histogram
+- [x] f) show the same cells/UMAP in both
+- [x] g) move all targets to supp, keep diff expressed only
+- [ ] g) maybe nice to plot lineage day underneath x axis. To see if TFs are already up before germ layer specification. It looks like it)
 
 supplementary figure
 - [ ] b) show subselection that Peter indicated
@@ -60,10 +61,11 @@ supplementary figure
 - [ ] c) try sox17 or dach1 in ect
 - [ ] d) share unfiltered, 2 modalities and all 3 modalities changing
 
+
 ## manuscript:
 - [ ] figure 6 caption
 - [ ] figure S6 caption
-- [ ] figure 6 main text
+- [x] figure 6 main text
 - [ ] add to methods: diff gene analysis
 - [ ] add to methods: TF activity
 - [ ] discussion
