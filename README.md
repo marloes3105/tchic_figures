@@ -56,10 +56,10 @@ figure panels
 - [ ] g) maybe nice to plot lineage day underneath x axis. To see if TFs are already up before germ layer specification. It looks like it)
 
 supplementary figure
-- [ ] b) show subselection that Peter indicated
-- [ ] c) use gray lines for the std, and a vertical black line for the first cross
-- [ ] c) try sox17 or dach1 in ect
-- [ ] d) share unfiltered, 2 modalities and all 3 modalities changing
+- [x] b) show subselection that Peter indicated
+- [x] c) use gray lines for the std, and a vertical black line for the first cross
+- [x] c) try sox17 or dach1 in ect
+- [x] d) share unfiltered, 2 modalities and all 3 modalities changing
 
 
 ## manuscript:
