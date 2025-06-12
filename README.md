@@ -5,70 +5,59 @@
 Current version of manuscript: everything can be found [here](https://drive.google.com/drive/folders/1-6IAZ8X184rGz3GzwJrszc_t1sO4ZMYN?usp=drive_link, "folder"), link to the manuscript itself is [here](https://docs.google.com/document/d/1p5outpuw4Un-rDOf8s5t8brp0EqJR14in3SULT3gqVY/edit?usp=sharing, "manuscript")
 
 # tchic_figures
-for easy sharing of jupyter notebooks to generate figures
+- [ ] Peter: check title options
+- [ ] Peter: process text edits in abstract
+- [ ] Marloes: rewrite introduction to include more chromatin focus
+- [x] Marloes: check fig1 subtext
+- [x] Marloes: process text of fig1
+- [ ] Peter: process text edits belonging to fig1
+- [x] Marloes: check fig2 subtext
+- [x] Marloes: process text of fig2
+- [ ] Peter: process text edits belonging to fig2
+- [x] Marloes: check fig3 subtext
+- [x] Marloes: process text of fig3
+- [ ] Peter: process text edits belonging to fig3
+- [ ] Peter: send layout of fig4
+- [ ] Marloes: process text of fig4
+- [ ] Marloes: check fig4 subtext
+- [ ] Peter: send layout of fig5
+- [ ] Marloes: process text of fig5
+- [ ] Marloes: check fig5 subtext
+- [ ] Peter: send layout of fig6
+- [ ] Marloes: process text of fig6
+- [ ] Marloes: check fig6 subtext
+- [ ] Both: design layout for fig7
 
-## figure 1
-- [x] all done!
-
-## figure 2
-- [x] all done!
-
-## figure 3
-- [x] all done!
-
-## figure 4
-figure panels
-- [x] (f) use ECT/MES/END instead of ectoderm/mesoderm/endoderm
-- [x] (b,c) re-order: mESC first
-- [x] (d) replace top heatmap for RNA + K27
-- [x] (e) add annot TSS
-- [x] (f) add whitespace between sections, remove cutouts
-- [x] (S4) 2 sub-panels b, make text sizes etc consistent
-- [x] (S4) consistently say TSS instead of promoter (e, m)
-- [x] (S4e) y-axis labels aren't centred
-- [x] (S4g) remake to have same order of ECT/MES/END
-- > done?
-
-## figure 5
-figure panels
-- [x] (a,b) ESCs first
-- [x] (f) add dots for states on all outside x-y-axes and add label "states"
-- [x] (h) try log scale
-supplementary figure
-- [ ] (a) add [counts per cell] to y-axis label
-- [ ] (b) (low priority) change order of states
-- [ ] (b) shift all legends/color bars to one side (right)
-- [x] (b/c) call ECT/MES/END
-- [x] (c/d) shorten labels
-- [x] (e) background cell clusters one shade darker grey
-- [ ] (g) axis labels
-- [ ] (h) add title or make more coherent with g (add box around each germ layer?)
-- [x] (h) try log scale?
-- [x] (h) try to consider min counts and see if this helps
-
-- [ ] improve volcano plot aesthetics
-
-## figure 6
-figure panels
-- [x] d) change to steps instead of RT for both line plot and histogram
-- [x] f) show the same cells/UMAP in both
-- [x] g) move all targets to supp, keep diff expressed only
-- [ ] g) maybe nice to plot lineage day underneath x axis. To see if TFs are already up before germ layer specification. It looks like it)
-
-supplementary figure
-- [x] b) show subselection that Peter indicated
-- [x] c) use gray lines for the std, and a vertical black line for the first cross
-- [x] c) try sox17 or dach1 in ect
-- [x] d) share unfiltered, 2 modalities and all 3 modalities changing
+# comments figures
+- [ ] 3b	add small diagrams to understand what is shown
+- [ ] 3d	Maybe show scatterplot instead to highlight differences in anti-correlation between K27 and RNA in different germlayers, as well as K4 and RNA early vs late
+- [ ] 4a	Plots compare layers more then lineages. Cant be changed though, due to differences in pseudotime. Focus on germlayer differences in text clearer
+- [ ] 4b	Enlarge numbers in UMAP. Mark classes with bar to make clear that we care about abundence. Small diagram what counts mean.
+- [ ] 4de	maybe switch order -> first genome wide quantification then example? Difficult as we use it at the moment as a way to introduce the observation
+- [ ] 4f	could go to supp, place could be taken by sup4 g-I main? Focus more on diff K4 and summary/quantification parts
+- [ ] 5b	Enlarge numbers in UMAP. Mark classes with bar to make clear that we care about abundence. Make clearer that C is quantification of B. Small diagram what counts mean
+- [ ] 5d	Not obvious what is part of plu traject and what is later. S5e shows details. Refer to both together when mentioning 5d.
+- [ ] 5e	Maybe use pictures instead of 3 dot color to explain.
+	Can we simplify by adding merging all in one plot? I think difficult because log vs two different lin scales
+- [ ] 5f	transitions unclear as well as what is different between germlayers
+	Maybe only show one per germlayer, label axis with start/end
+- [ ] 6	For ourselves. Take transition points from d and color cells before and after their median PT different -> transition point
+TF part unclear =. Specifically difference between TF and targets in behaviour.
+- [ ] 6a	include trajectories
+- [ ] 6b(c)	Could go supplementary
+- [ ] 6g	maybe move TF to supp or leave out/ move to 7
+- [ ] 6h	difference to I not obvious. Maybe leave I out and focus on timing of activation relative to real time steps
 
 
-## manuscript:
-- [ ] figure 6 caption
-- [ ] figure S6 caption
-- [x] figure 6 main text
-- [ ] add to methods: diff gene analysis
-- [ ] add to methods: TF activity
-- [ ] discussion
-- [ ] Peter: check main text
-- [ ] Peter: check fig6 text
-- [ ] Peter: add methods sections
+# comments text
+- [ ] Titel focus more on de-repression of developmental genes
+- [ ] Introduction: More chromatin intro. TF regulate expression in the context of chromatin…can be changed writers and erasers generating cell type specific epigenomes
+	- [ ] For gastruloids focus on lineage diversification + temporal. Does not really recover gastrulation and cell migration
+	- [ ] What does nacent RNA give us -> Ability to see dynamic changes, as we don’t get confused by accumulated RNA
+- [ ] Explain what extended differentiation gives us -> More celltypes and more mature celltypes
+- [ ] Explain what pseudotime gives us -> more continues changes than 24h steps
+- [ ] Decide on one way to call RNA,K4,K27 (maybe modalities) and keep using that one
+- [ ] Hox cluster very inetersting to embryologists, can we say more without doing new analysis
+- [ ] Is figure 3d needed? Or are examples enough? I would say something more genral is needed, but it also comes later again in fig 4 and 5
+- [ ] Maybe 3d could be discribed with 3b as general gene regulation. Heatmaps in sup. Then more on Hox. In principle I like the idea to finsih with a nice example such as hox. Maybe we can add back some of the hoc UMAPs?
+- [ ] 6 TF part stands out. Connect better with rest or leave out
