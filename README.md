@@ -26,10 +26,10 @@ Current version of manuscript: everything can be found [here](https://drive.goog
 - [ ] Peter: send layout of fig6
 - [ ] Marloes: process text of fig6
 - [ ] Marloes: check fig6 subtext
-- [ ] Both: design layout for fig7
+- [x] Both: design layout for fig7
 
 # comments figures
-- [ ] 3b	add small diagrams to understand what is shown
+- [x] 3b	add small diagrams to understand what is shown
 - [ ] 3d	Maybe show scatterplot instead to highlight differences in anti-correlation between K27 and RNA in different germlayers, as well as K4 and RNA early vs late
 - [ ] 4a	Plots compare layers more then lineages. Cant be changed though, due to differences in pseudotime. Focus on germlayer differences in text clearer
 - [ ] 4b	Enlarge numbers in UMAP. Mark classes with bar to make clear that we care about abundence. Small diagram what counts mean.
@@ -50,14 +50,14 @@ TF part unclear =. Specifically difference between TF and targets in behaviour.
 
 
 # comments text
-- [ ] Titel focus more on de-repression of developmental genes
+- [x] Titel focus more on de-repression of developmental genes
 - [ ] Introduction: More chromatin intro. TF regulate expression in the context of chromatin…can be changed writers and erasers generating cell type specific epigenomes
 	- [ ] For gastruloids focus on lineage diversification + temporal. Does not really recover gastrulation and cell migration
 	- [ ] What does nacent RNA give us -> Ability to see dynamic changes, as we don’t get confused by accumulated RNA
-- [ ] Explain what extended differentiation gives us -> More celltypes and more mature celltypes
-- [ ] Explain what pseudotime gives us -> more continues changes than 24h steps
+- [x] Explain what extended differentiation gives us -> More celltypes and more mature celltypes
+- [x] Explain what pseudotime gives us -> more continues changes than 24h steps
 - [ ] Decide on one way to call RNA,K4,K27 (maybe modalities) and keep using that one
 - [ ] Hox cluster very inetersting to embryologists, can we say more without doing new analysis
 - [ ] Is figure 3d needed? Or are examples enough? I would say something more genral is needed, but it also comes later again in fig 4 and 5
 - [ ] Maybe 3d could be discribed with 3b as general gene regulation. Heatmaps in sup. Then more on Hox. In principle I like the idea to finsih with a nice example such as hox. Maybe we can add back some of the hoc UMAPs?
-- [ ] 6 TF part stands out. Connect better with rest or leave out
+- [x] 6 TF part stands out. Connect better with rest or leave out
