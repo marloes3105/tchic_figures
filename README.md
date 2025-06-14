@@ -18,7 +18,7 @@ Current version of manuscript: everything can be found [here](https://drive.goog
 - [x] Peter: send layout of fig4
 - [ ] Marloes: process text of fig4
 - [ ] Marloes: check fig4 subtext
-- [ ] Peter: send layout of fig5
+- [x] Peter: send layout of fig5
 - [ ] Marloes: process text of fig5
 - [ ] Marloes: check fig5 subtext
 - [ ] Peter: send layout of fig6
@@ -30,7 +30,7 @@ Current version of manuscript: everything can be found [here](https://drive.goog
 - [ ] Quantiles in S1b are labelled different than S1e!
 - [x] 3b	add small diagrams to understand what is shown
 - [ ] 3d	Maybe show scatterplot instead to highlight differences in anti-correlation between K27 and RNA in different germlayers, as well as K4 and RNA early vs late
-- [ ] 4a	Plots compare layers more then lineages. Cant be changed though, due to differences in pseudotime. Focus on germlayer differences in text clearer
+- [x] 4a	Plots compare layers more then lineages. Cant be changed though, due to differences in pseudotime. Focus on germlayer differences in text clearer
 - [x] 4b	Enlarge numbers in UMAP. Mark classes with bar to make clear that we care about abundence. Small diagram what counts mean.
 - [ ] 4de	maybe switch order -> first genome wide quantification then example? Difficult as we use it at the moment as a way to introduce the observation
 - [x] 4f	could go to supp, place could be taken by sup4 g-I main? Focus more on diff K4 and summary/quantification parts
