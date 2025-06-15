@@ -16,14 +16,17 @@ Current version of manuscript: everything can be found [here](https://drive.goog
 - [x] Marloes: process text of fig3
 - [ ] Peter: process text edits belonging to fig3
 - [x] Peter: send layout of fig4
-- [ ] Marloes: process text of fig4
-- [ ] Marloes: check fig4 subtext
+- [x] Marloes: process text of fig4
+- [x] Marloes: check fig4 subtext
+- [ ] Peter: process text edits belonging to fig4
 - [x] Peter: send layout of fig5
 - [ ] Marloes: process text of fig5
-- [ ] Marloes: check fig5 subtext
+- [x] Marloes: check fig5 subtext
+- [ ] Peter: process text edits belonging to fig5
 - [ ] Peter: send layout of fig6
 - [ ] Marloes: process text of fig6
 - [ ] Marloes: check fig6 subtext
+- [ ] Peter: process text edits belonging to fig6
 - [x] Both: design layout for fig7
 
 # comments figures
@@ -34,11 +37,11 @@ Current version of manuscript: everything can be found [here](https://drive.goog
 - [x] 4b	Enlarge numbers in UMAP. Mark classes with bar to make clear that we care about abundence. Small diagram what counts mean.
 - [ ] 4de	maybe switch order -> first genome wide quantification then example? Difficult as we use it at the moment as a way to introduce the observation
 - [x] 4f	could go to supp, place could be taken by sup4 g-I main? Focus more on diff K4 and summary/quantification parts
-- [ ] 5b	Enlarge numbers in UMAP. Mark classes with bar to make clear that we care about abundence. Make clearer that C is quantification of B. Small diagram what counts mean
+- [x] 5b	Enlarge numbers in UMAP. Mark classes with bar to make clear that we care about abundance. Make clearer that C is quantification of B. Small diagram what counts mean
 - [ ] 5d	Not obvious what is part of plu traject and what is later. S5e shows details. Refer to both together when mentioning 5d.
-- [ ] 5e	Maybe use pictures instead of 3 dot color to explain.
+- [x] 5e	Maybe use pictures instead of 3 dot color to explain.
 	Can we simplify by adding merging all in one plot? I think difficult because log vs two different lin scales
-- [ ] 5f	transitions unclear as well as what is different between germlayers
+- [x] 5f	transitions unclear as well as what is different between germlayers
 	Maybe only show one per germlayer, label axis with start/end
 - [ ] 6	For ourselves. Take transition points from d and color cells before and after their median PT different -> transition point
 TF part unclear =. Specifically difference between TF and targets in behaviour.
