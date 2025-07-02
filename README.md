@@ -24,7 +24,7 @@ Current version of manuscript: everything can be found [here](https://drive.goog
 - [x] Marloes: check fig5 subtext
 - [ ] Peter: process text edits belonging to fig5
 - [ ] Peter: send layout of fig6
-- [ ] Marloes: process text of fig6
+- [x] Marloes: process text of fig6
 - [ ] Marloes: check fig6 subtext
 - [ ] Peter: process text edits belonging to fig6
 - [x] Both: design layout for fig7
