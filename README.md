@@ -3,30 +3,30 @@
 Current version of manuscript: everything can be found [here](https://drive.google.com/drive/folders/1-6IAZ8X184rGz3GzwJrszc_t1sO4ZMYN?usp=drive_link, "folder"), link to the manuscript itself is [here](https://docs.google.com/document/d/1p5outpuw4Un-rDOf8s5t8brp0EqJR14in3SULT3gqVY/edit?usp=sharing, "manuscript")
 
 # tchic_figures
-- [ ] Peter: check title options
-- [ ] Peter: process text edits in abstract
+- [x] Peter: check title options
+- [x] Peter: process text edits in abstract
 - [ ] Marloes: rewrite introduction to include more chromatin focus
 - [x] Marloes: check fig1 subtext
 - [x] Marloes: process text of fig1
-- [ ] Peter: process text edits belonging to fig1
+- [x] Peter: process text edits belonging to fig1
 - [x] Marloes: check fig2 subtext
 - [x] Marloes: process text of fig2
-- [ ] Peter: process text edits belonging to fig2
+- [x] Peter: process text edits belonging to fig2
 - [x] Marloes: check fig3 subtext
 - [x] Marloes: process text of fig3
-- [ ] Peter: process text edits belonging to fig3
+- [x] Peter: process text edits belonging to fig3
 - [x] Peter: send layout of fig4
 - [x] Marloes: process text of fig4
 - [x] Marloes: check fig4 subtext
-- [ ] Peter: process text edits belonging to fig4
+- [x] Peter: process text edits belonging to fig4
 - [x] Peter: send layout of fig5
-- [ ] Marloes: process text of fig5
+- [x] Marloes: process text of fig5
 - [x] Marloes: check fig5 subtext
-- [ ] Peter: process text edits belonging to fig5
-- [ ] Peter: send layout of fig6
+- [x] Peter: process text edits belonging to fig5
+- [x] Peter: send layout of fig6
 - [x] Marloes: process text of fig6
-- [ ] Marloes: check fig6 subtext
-- [ ] Peter: process text edits belonging to fig6
+- [x] Marloes: check fig6 subtext
+- [x] Peter: process text edits belonging to fig6
 - [x] Both: design layout for fig7
 
 # comments figures
