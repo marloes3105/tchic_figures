@@ -28,6 +28,7 @@ Current version of manuscript: everything can be found [here](https://drive.goog
 - [x] Marloes: check fig6 subtext
 - [x] Peter: process text edits belonging to fig6
 - [x] Both: design layout for fig7
+- [ ] Either: Do statistical analysis of figS6D
 
 # comments figures
 - [ ] Quantiles in S1b are labelled different than S1e!
