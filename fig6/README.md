@@ -3,9 +3,9 @@
 
 ## Figure 6:
 
-![](https://github.com/marloes3105/tchic_figures/blob/main/fig6/versions/fig6_v3.png?raw=true)
+![](https://github.com/marloes3105/tchic_figures/blob/main/fig6/figures/fig6_v1.png?raw=true)
 
 
 ## Supplementary 6:
 
-![](https://github.com/marloes3105/tchic_figures/blob/main/fig6/versions/figS6_v3.png?raw=true)
+![](https://github.com/marloes3105/tchic_figures/blob/main/fig6/figures/figS6.png?raw=true)
