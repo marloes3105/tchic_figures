@@ -3,7 +3,7 @@
 
 ## Figure 6:
 
-![](https://github.com/marloes3105/tchic_figures/blob/main/fig6/figures/fig6_v1.png?raw=true)
+![](https://github.com/marloes3105/tchic_figures/blob/main/fig6/figures/fig6.png?raw=true)
 
 
 ## Supplementary 6:
